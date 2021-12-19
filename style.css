@@ -22,8 +22,9 @@ header {
 }
 
 .firstName {
-    color: black;
+    color: white;
     font-size: 6rem;
+    font-family: 'open-sans bold', sans-serif;
 }
 
 .lastName {
@@ -32,20 +33,28 @@ header {
 
 /* Nav Bar */
 .navbar {
-    overflow: hidden;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 8px 13px;
+    line-height: 32px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: 'Open Sans', serif;
-    list-style: none;
-    transition: 0.6s;
+    font-family: 'opensans-bold', sans-serif;
+    letter-spacing: 1.5px;
+
 }
 
+.nav li {
+
+}
 .navbar a {
-    float: left;
+
+    font-family: 'Open Sans', serif;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px !important;
     text-decoration: none;
     font-size: 17px;
     cursor: pointer;
@@ -63,6 +72,8 @@ header {
     color: white;
     text-align: center;
     line-height: 0;
+    color: rgb(244,242,238) !important;
+    font-family: 'librebaskerville-regular', serif !important;
 }
 
 .aboutMeText {
@@ -78,14 +89,16 @@ header {
 }
 
 .button {
+
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: none;
-    padding: 8px 16px;
+    margin-top: 130px;
+    font-size: 2rem;
+    color: white;
     text-decoration: none;
-    background-color: white;
+
+
 }
 
 .start {
@@ -94,6 +107,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .footer {
@@ -116,6 +131,10 @@ header {
 
 .title {
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .education {
@@ -145,8 +164,37 @@ header.sticky {
 
 
 #aboutSection {
+    border-top: 1px solid white;
     border-bottom: 1px solid white;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    padding: 1rem;
+    padding: 5rem;
+}
+
+#educationSection {
+    border-bottom: 1px solid white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding: 5rem;
+}
+
+#projectsSection {
+    border-bottom: 1px solid white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding: 5rem;
+}
+
+#skillsSection {
+    border-bottom: 1px solid white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding: 5rem;
+}
+
+#contactSection {
+    border-bottom: 1px solid white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding: 5rem;
 }

@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <title>Lance Ma</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4286b0f8a1.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
 
 <header>
-<div class="navbar" id = "#nav">
-    <ul class="navbar">
-        <li><a href="#aboutme">ABOUT</a></li>
-        <li><a href="#education">PROJECTS</a></li>
-        <li><a href="#contact">CONTACTS</a></li>
-    </ul>
-</div>
+    <nav class="navbar" id="#nav">
+        <ul class="navbar">
+            <li><a href="#aboutme">ABOUT</a></li>
+            <li><a href="#education">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
 
 </header>
 
@@ -30,7 +31,11 @@
 
 
     <div class="button">
-        <a href="#aboutme" class="button">Learn More</a>
+        <a href="#aboutme" class="button">
+
+            <i class="fas fa-arrow-circle-down fa-lg"></i>
+
+        </a>
     </div>
 
 </div>
@@ -71,74 +76,87 @@
 
 </section>
 
+
 <!--Education-->
-<div class="education">
+<section id="educationSection">
+    <div class="education">
 
-    <a name="education"></a>
+        <a name="education"></a>
 
-    <h1 class="educationTitle">EDUCATION</h1>
+        <h1 class="title">EDUCATION</h1>
 
-    <div class="purdueEducationAbout">
-        <h3>Purdue University</h3>
-        <p>West Lafayette, Indiana</p>
-    </div>
-
-    <div>GPA: 4.0 / 4.0</div>
-    <div>Department of Computer Science - College of Science</div>
-
-    <div class="coursework">
-        <h3 class="courworkTitle">Relevant Coursework</h3>
-        <ul>
-            <li>CS 18000 - Problem Solving and Object Oriented Programming</li>
-            <li>MA 161 - Plane Analytic Geometry and Calculus 1</li>
-        </ul>
-    </div>
-
-    <div class="wallenberg">
-
-        <div class="wallenbergAbout">
-            <h3>Raoul Wallenberg Traditional High School</h3>
-            <p>San Francisco, California</p>
+        <div class="purdueEducationAbout">
+            <h3>Purdue University</h3>
+            <p>West Lafayette, Indiana</p>
         </div>
 
-
-        <p>GPA: 3.97 / 4.0 </p>
+        <div>GPA: 4.0 / 4.0</div>
+        <div>Department of Computer Science - College of Science</div>
 
         <div class="coursework">
-            <h2>Relevant Coursework</h2>
-
+            <h3 class="courworkTitle">Relevant Coursework</h3>
             <ul>
-                <li>AP US History</li>
-                <li>AP Calculus AB</li>
-                <li>AP Computer Science Principals</li>
-                <li>Economics</li>
+                <li>CS 18000 - Problem Solving and Object Oriented Programming</li>
+                <li>MA 161 - Plane Analytic Geometry and Calculus 1</li>
             </ul>
         </div>
 
+        <div class="wallenberg">
+
+            <div class="wallenbergAbout">
+                <h3>Raoul Wallenberg Traditional High School</h3>
+                <p>San Francisco, California</p>
+            </div>
+
+
+            <p>GPA: 3.97 / 4.0 </p>
+
+            <div class="coursework">
+                <h2>Relevant Coursework</h2>
+
+                <ul>
+                    <li>AP US History</li>
+                    <li>AP Calculus AB</li>
+                    <li>AP Computer Science Principals</li>
+                    <li>Economics</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+
+
+<section id="projectsSection">
+    <div class="personalProjects">
+
+        <h1 class="title">PERSONAL PROJECTS</h1>
+
+        <h2>College Data Webscraper</h2>
+
+
     </div>
 
-
-</div>
-
-<div class="personalProjects">
-
-    <h1 class="projectsTitle">PERSONAL PROJECTS</h1>
-
-    <h2>College Data Webscraper</h2>
+</section>
 
 
-</div>
+<section id="skillsSection">
+    <div class="Skills">
 
-<div class="Skills">
+        <h1 class="title">Skills</h1>
+
+    </div>
+</section>
 
 
-</div>
-
-
-<div class="contact">
-    <a name="contact"></a>
-    <h1 class="contactTitle">Contact Me</h1>
-</div>
+<section id="contactSection">
+    <div class="contact">
+        <a name="contact"></a>
+        <h1 class="title">Contact Me</h1>
+    </div>
+</section>
 
 <footer class="footer">
     <a href="#home" class="footerButton">To the top</a>
@@ -146,7 +164,6 @@
 
 
 <script src="script.js"></script>
-
 
 
 </body>
