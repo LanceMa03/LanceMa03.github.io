@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <title>Lance Ma</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre_Baskerville">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/4286b0f8a1.js" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
 
 <header>
     <section id="home">
-        <nav class="navbar" id="#nav">
+        <nav class="nav">
             <ul class="navbar">
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#aboutme">ABOUT</a></li>
@@ -88,25 +92,30 @@
         <h1 class="title">EDUCATION</h1>
 
         <div class="purdueEducationAbout">
-            <h3>Purdue University</h3>
-            <p>West Lafayette, Indiana</p>
+            <h3 class="school" id="purdue">Purdue University
+                <span class="date">August 2021 - Present</span>
+            </h3>
+            <h4>West Lafayette, Indiana</h4>
         </div>
 
-        <div>GPA: 4.0 / 4.0</div>
+        <div>GPA: 3.3 / 4.0</div>
         <div>Department of Computer Science - College of Science</div>
 
         <div class="coursework">
             <h3 class="courworkTitle">Relevant Coursework</h3>
             <ul>
                 <li>CS 18000 - Problem Solving and Object Oriented Programming</li>
-                <li>MA 161 - Plane Analytic Geometry and Calculus 1</li>
+                <li>CS 19300 - Tools</li>
+                <li>MA 16100 - Plane Analytic Geometry and Calculus 1</li>
             </ul>
         </div>
 
         <div class="wallenberg">
 
             <div class="wallenbergAbout">
-                <h3>Raoul Wallenberg Traditional High School</h3>
+                <h3 class="school" id="wallenberg">Raoul Wallenberg Traditional High School
+                    <span class="date">August 2017 - May 2021</span>
+                </h3>
                 <p>San Francisco, California</p>
             </div>
 
@@ -114,7 +123,7 @@
             <p>GPA: 3.97 / 4.0 </p>
 
             <div class="coursework">
-                <h2>Relevant Coursework</h2>
+                <h3 class="courworkTitle">Relevant Coursework</h3>
 
                 <ul>
                     <li>AP US History</li>
@@ -136,8 +145,31 @@
 
         <h1 class="title">PERSONAL PROJECTS</h1>
 
-        <h2>College Data Webscraper</h2>
+        <div class="container">
 
+            <div class="cardRow">
+
+
+                <div class="card">
+                    <div class="image">
+                        <a href="https://github.com/LanceMa03/CollegeDatabaseWebScraper" target="_blank"><img
+                                src="purdue.jpg"></a>
+                    </div>
+                    <h2 class="cardText">College Data Webscraper</h2>
+                </div>
+
+
+                <div class="card">
+                    <div class="image">
+                        <img src="purdue.jpg">
+                    </div>
+                    <h2 class="cardText">Personal Website</h2>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 
@@ -145,9 +177,37 @@
 
 
 <section id="skillsSection">
-    <div class="Skills">
+    <div class="skills">
 
-        <h1 class="title">Skills</h1>
+        <h1 class="title">PROGRAMMING LANGUAGES AND TOOLS</h1>
+
+        <p class="languageName">JAVA
+
+
+            <span class="rightText">Git</span>
+            <span class="progressBarSpan"></span>
+        </p>
+        <div class="progressBar">
+
+            <div class="progress90">90%</div>
+
+        </div>
+
+        <p class="languageName">PYTHON</p>
+        <div class="progressBar">
+            <div class="progress90">90%</div>
+        </div>
+
+
+        <p class="languageName">HTML</p>
+        <div class="progressBar">
+            <div class="progress90">90%</div>
+        </div>
+
+        <p class="languageName">CSS</p>
+        <div class="progressBar">
+            <div class="progress90">90%</div>
+        </div>
 
     </div>
 </section>
@@ -155,15 +215,40 @@
 
 <section id="contactSection">
     <div class="contact">
-        <a name="contact"></a>
-        <h1 class="title">Contact Me</h1>
+        <h1 class="title">CONTACT ME</h1>
+
+        <div class=contactRow>
+
+            <div class="instagram">
+                <i class="fab fa-instagram"></i>
+                <p class="contactText"><a href="https://www.instagram.com/1ance_ma/" target="_blank">Follow Me</a></p>
+            </div>
+
+            <div class="email">
+                <i class="fa fa-envelope" style="font-size:4.2rem; color: rgb(244,242,238)"></i>
+                <p><a href="mailto: ma718@purdue.edu">ma718@purdue.edu</a></p>
+                <p><a href="mailto: lancema507@gmail.com">lancema507@gmail.com</a></p>
+            </div>
+
+            <div class="linkedln">
+                <i class="fab fa-linkedin-in"></i>
+                <p class="contactText"><a href="https://www.linkedin.com/in/lance-ma/" target="_blank">Linkedln Profile</a></p>
+            </div>
+
+
+        </div>
+
+
     </div>
 </section>
 
 <footer class="footer">
-    <a href="#home" class="footerButton">To the top</a>
+    <a href="#home" class="footerButton">
+        <i class="fa fa-arrow-circle-up" aria-hidden="true"> To the top</i>
+    </a>
 </footer>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

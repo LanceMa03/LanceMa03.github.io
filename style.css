@@ -5,16 +5,17 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background-color: #333;
+    background-color: rgb(25, 27, 28);
     line-height: 1.5;
     font-weight: 400;
     font-size: 1rem;
     color: white;
 }
 
-/* First Name, Last Name Stylin */
+/* First Name, Last Name Styling */
 .row {
     line-height: 0;
+    text-shadow: rgb(0, 0, 0 / 80%) 0px 1px 3px;
 }
 
 header {
@@ -51,9 +52,6 @@ header {
 
 }
 
-.nav li {
-
-}
 .navbar a {
 
     font-family: 'Open Sans', serif;
@@ -77,8 +75,13 @@ header {
     color: white;
     text-align: center;
     line-height: 0;
-    color: rgb(244,242,238) !important;
+    color: rgb(244, 242, 238) !important;
     font-family: 'librebaskerville-regular', serif !important;
+}
+
+
+.aboutMe {
+    color: rgb(205, 200, 191);
 }
 
 .aboutMeText {
@@ -88,9 +91,17 @@ header {
     font-size: 20px;
 }
 
+.date {
+    float: right;
+}
+
 
 .subtitle {
     font-size: 1rem;
+}
+
+.education {
+    color: rgb(205, 200, 191);
 }
 
 .button {
@@ -104,6 +115,19 @@ header {
     text-decoration: none;
 
 
+}
+
+#purdue {
+    font-weight: bold;
+}
+
+#wallenberg {
+    font-weight: bold;
+}
+
+
+.school {
+    margin-bottom: -20px;
 }
 
 .start {
@@ -131,7 +155,12 @@ header {
     overflow: hidden;
     text-decoration: none;
     text-align: center;
-    background-color: white;
+    background-color: rgb(244,242,238) !important;
+}
+
+
+.courworkTitle {
+    text-decoration: underline;
 }
 
 .title {
@@ -140,10 +169,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: rgb(244,242,238);
 }
 
 .education {
-
     margin-left: 10px;
 }
 
@@ -155,16 +184,96 @@ header {
     margin-left: 10px;
 }
 
+.languageName {
+    letter-spacing: 4px;
+}
+
+.progressBar {
+    color: #000 !important;
+    background-color: #f1f1f1;
+    line-height: 1.8;
+    width: 40%;
+}
+
+.progress90 {
+    width: 90%;
+    line-height: 1.8;
+    padding: 4px 8px !important;
+    color: #fff !important;
+    background-color: #616161 !important;
+    text-align: center;
+}
+
+
+.rightText {
+    float: right;
+}
+
+.progressBarSpan {
+    color: #000 !important;
+    background-color: #f1f1f1;
+    line-height: 1.8;
+    width: 40%;
+    float: right;
+}
+
 .contact {
     margin-left: 10px;
 }
 
-header.sticky {
+.sticky {
     transition: 0.6s;
     position: fixed;
     width: 100%;
     background-color: black;
     padding-top: 0px !important;
+}
+
+.card {
+    width: auto;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: fill;
+}
+
+.cardRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: nowrap;
+    grid-gap: 50px;
+}
+
+.container {
+    width: auto;
+    height: auto;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f1f1f1;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.cardText {
+    color: black;
+    text-align: center;
 }
 
 
@@ -174,13 +283,34 @@ header.sticky {
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 5rem;
+    height: 100vh;
 }
+
+.skillIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pythonHover {
+    visibility: visible;
+    top: 5px;
+    left: 10px !important;
+    color: red;
+
+}
+
+.pythonIcon:hover ~ #pythonHover{
+    visibility: hidden;
+}
+
 
 #educationSection {
     border-bottom: 1px solid white;
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 5rem;
+    height: 100vh;
 }
 
 #projectsSection {
@@ -188,6 +318,7 @@ header.sticky {
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 5rem;
+    height: 100vh;
 }
 
 #skillsSection {
@@ -195,11 +326,47 @@ header.sticky {
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 5rem;
+    height: 100vh;
 }
 
 #contactSection {
-    border-bottom: 1px solid white;
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 5rem;
+    height: 100vh;
+}
+
+.contactRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: nowrap;
+    grid-gap: 0px;
+    font-family: "poppins-regular", sans-serif;
+}
+
+.email a {
+    text-decoration: none;
+    color: white;
+}
+
+.linkedln i, .instagram i{
+    color: rgb(244,242,238);
+    font-size: 4.2rem;
+}
+
+.linkedln a, .instagram a{
+    text-decoration: none;
+    color: white;
+}
+
+.contactText {
+    text-decoration: underline;
+}
+
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
 }
