@@ -12,7 +12,7 @@ body {
     color: white;
 }
 
-/* First Name, Last Name Styling */
+/* First Name, Last Name Stylin */
 .row {
     line-height: 0;
     text-shadow: rgb(0, 0, 0 / 80%) 0px 1px 3px;
@@ -84,11 +84,18 @@ header {
     color: rgb(205, 200, 191);
 }
 
+.img {
+    float: left;
+    width: 40%;
+
+}
+
 .aboutMeText {
     font-family: 'Open Sans', serif;
     margin-left: 10px;
     overflow: hidden;
     font-size: 20px;
+    text-align: justify;
 }
 
 .date {
@@ -155,7 +162,7 @@ header {
     overflow: hidden;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(244,242,238) !important;
+    background-color: rgb(244, 242, 238) !important;
 }
 
 
@@ -169,7 +176,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(244,242,238);
+    color: rgb(244, 242, 238);
+    margin-bottom: 4rem;
 }
 
 .education {
@@ -230,14 +238,12 @@ header {
 }
 
 .card {
-    width: auto;
+    width: 50%;
 }
 
 .image {
-    width: 500px;
-    height: 300px;
-    overflow: hidden;
-    object-fit: fill;
+    width: 10px;
+    height: 10px;
 }
 
 .cardRow {
@@ -300,7 +306,7 @@ a {
 
 }
 
-.pythonIcon:hover ~ #pythonHover{
+.pythonIcon:hover ~ #pythonHover {
     visibility: hidden;
 }
 
@@ -333,7 +339,7 @@ a {
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 5rem;
-    height: 100vh;
+    height: 60vh;
 }
 
 .contactRow {
@@ -350,12 +356,12 @@ a {
     color: white;
 }
 
-.linkedln i, .instagram i{
-    color: rgb(244,242,238);
+.linkedln i, .instagram i {
+    color: rgb(244, 242, 238);
     font-size: 4.2rem;
 }
 
-.linkedln a, .instagram a{
+.linkedln a, .instagram a {
     text-decoration: none;
     color: white;
 }
