@@ -10,6 +10,7 @@ body {
     font-weight: 400;
     font-size: 1rem;
     color: white;
+    font-family: "open-sans bold", sans-serif;
 }
 
 /* First Name, Last Name Stylin */
@@ -49,12 +50,14 @@ header {
     justify-content: center;
     font-family: 'opensans-bold', sans-serif;
     letter-spacing: 1.5px;
+    font-size: 12px;
 
 }
 
 .navbar a {
-
-    font-family: 'Open Sans', serif;
+    font-size: 16px !important;
+    font-weight: bold;
+    font-family: 'open-sans bold', sans-serif;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px !important;
@@ -66,7 +69,6 @@ header {
 
 
 .navbar a:hover {
-
     color: black;
     cursor: pointer;
 }
@@ -178,6 +180,7 @@ header {
     align-items: center;
     color: rgb(244, 242, 238);
     margin-bottom: 4rem;
+    font-family: "open-sans bold", sans-serif;
 }
 
 .education {
@@ -203,8 +206,26 @@ header {
     width: 40%;
 }
 
-.progress90 {
-    width: 90%;
+.progress80 {
+    width: 80%;
+    line-height: 1.8;
+    padding: 4px 8px !important;
+    color: #fff !important;
+    background-color: #616161 !important;
+    text-align: center;
+}
+
+.progress60 {
+    width: 60%;
+    line-height: 1.8;
+    padding: 4px 8px !important;
+    color: #fff !important;
+    background-color: #616161 !important;
+    text-align: center;
+}
+
+.progress50 {
+    width: 50%;
     line-height: 1.8;
     padding: 4px 8px !important;
     color: #fff !important;
@@ -237,10 +258,6 @@ header {
     padding-top: 0px !important;
 }
 
-.card {
-    width: 50%;
-}
-
 .image {
     width: 10px;
     height: 10px;
@@ -267,9 +284,10 @@ a {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: rgb(25,27,28);
     transition: 0.3s;
     text-decoration: none;
+    width: 50%;
 }
 
 .card:hover {
@@ -278,14 +296,12 @@ a {
 }
 
 .cardText {
-    color: black;
+    color: rgb(232,229,225);
     text-align: center;
 }
 
 
 #aboutSection {
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 5rem;
@@ -312,23 +328,24 @@ a {
 
 
 #educationSection {
-    border-bottom: 1px solid white;
+
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 5rem;
     height: 100vh;
+    background-color: rgb(36,39,41);
 }
 
 #projectsSection {
-    border-bottom: 1px solid white;
+
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 5rem;
     height: 100vh;
+    background-color: black;
 }
 
 #skillsSection {
-    border-bottom: 1px solid white;
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 5rem;
@@ -340,6 +357,7 @@ a {
     padding-bottom: 5rem;
     padding: 5rem;
     height: 60vh;
+    background-color: rgb(17,18,19);
 }
 
 .contactRow {
@@ -353,7 +371,7 @@ a {
 
 .email a {
     text-decoration: none;
-    color: white;
+    color: rgb(167,159,146);
 }
 
 .linkedln i, .instagram i {
