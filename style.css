@@ -11,6 +11,7 @@ body {
     font-size: 1rem;
     color: white;
     font-family: "open-sans bold", sans-serif;
+    overflow-x: hidden;
 }
 
 /* First Name, Last Name Stylin */
