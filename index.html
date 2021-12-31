@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre_Baskerville">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <script src="https://kit.fontawesome.com/4286b0f8a1.js" crossorigin="anonymous"></script>
 
 
@@ -40,9 +41,7 @@
 
             <div class="button">
                 <a href="#aboutme" class="button">
-
                     <i class="fas fa-arrow-circle-down fa-lg"></i>
-
                 </a>
             </div>
 
@@ -109,48 +108,55 @@
 
         <h1 class="title">EDUCATION</h1>
 
-        <div class="purdueEducationAbout">
-            <h3 class="school" id="purdue">Purdue University
-                <span class="date">August 2021 - Present</span>
-            </h3>
-            <h4>West Lafayette, Indiana</h4>
-        </div>
-
-        <div>GPA: 3.3 / 4.0</div>
-        <div>Department of Computer Science - College of Science</div>
-
-        <div class="coursework">
-            <h3 class="courworkTitle">Relevant Coursework</h3>
-            <ul>
-                <li>CS 18000 - Problem Solving and Object Oriented Programming</li>
-                <li>CS 19300 - Tools</li>
-                <li>MA 16100 - Plane Analytic Geometry and Calculus 1</li>
-            </ul>
-        </div>
-
-        <div class="wallenberg">
-
-            <div class="wallenbergAbout">
-                <h3 class="school" id="wallenberg">Raoul Wallenberg Traditional High School
-                    <span class="date">August 2017 - May 2021</span>
+        <div class="info" data-aos="fade-right" data-aos-easing="ease-in-sine">
+            <div class="purdueEducationAbout">
+                <h3 class="school" id="purdue">Purdue University
+                    <span class="date">August 2021 - Present</span>
                 </h3>
-                <p>San Francisco, California</p>
+                <p>West Lafayette, Indiana</p>
             </div>
 
-
-            <p>GPA: 3.97 / 4.0 </p>
+            <div>GPA: 3.3 / 4.0</div>
+            <div>Department of Computer Science - College of Science</div>
 
             <div class="coursework">
-                <h3 class="courworkTitle">Relevant Coursework</h3>
-
+                <h4 class="courworkTitle">Relevant Coursework</h4>
                 <ul>
-                    <li>AP US History</li>
-                    <li>AP Calculus AB</li>
-                    <li>AP Computer Science Principals</li>
-                    <li>Economics</li>
+                    <li>CS 18000 - Problem Solving and Object Oriented Programming</li>
+                    <li>CS 19300 - Tools</li>
+                    <li>MA 16100 - Plane Analytic Geometry and Calculus I</li>
+                </ul>
+
+                <h4 class="courworkTitle">Spring 2022 Courses</h4>
+                <ul>
+                    <li>CS 18200 - Foundations of Computer Science</li>
+                    <li>CS 24000 - Programming in C</li>
+                    <li>MA 16200 - Plane Analytic Geometry and Calculus II</li>
                 </ul>
             </div>
 
+            <div class="wallenberg">
+
+                <div class="wallenbergAbout">
+                    <h3 class="school" id="wallenberg">Raoul Wallenberg Traditional High School
+                        <span class="date">August 2017 - May 2021</span>
+                    </h3>
+                    <p>San Francisco, California</p>
+                </div>
+
+
+                <p>GPA: 3.97 / 4.0 </p>
+                <div class="coursework">
+                    <h4 class="courworkTitle">Relevant Coursework</h4>
+                    <ul>
+                        <li>AP US History</li>
+                        <li>AP Calculus AB</li>
+                        <li>AP Computer Science Principals</li>
+                        <li>Economics</li>
+                    </ul>
+                </div>
+
+            </div>
         </div>
 
 
@@ -168,7 +174,8 @@
             <div class="cardRow">
 
 
-                <div class="card">
+
+                <div class="card" data-aos="fade-up-right" data-aos-duration="600" data-aos-duration="600">
                     <a href="https://github.com/LanceMa03/CollegeDatabaseWebScraper" target="_blank"><img
                             src="purdue.jpg" style="width: 100%">
                         <h2 class="cardText">College Database Webscraper</h2>
@@ -176,7 +183,7 @@
                 </div>
 
 
-                <div class="card">
+                <div class="card" data-aos="fade-up-left" data-aos-duration="600">
                     <a href="https://lancema03.github.io/" target="_blank"><img
                             src="website.PNG" style="width: 100%; height: 82%"></a>
                     <h2 class="cardText">Personal Website</h2>
@@ -197,33 +204,38 @@
         <h1 class="title">PROGRAMMING LANGUAGES AND TOOLS</h1>
 
 
+        <div class="left" data-aos="fade-right" data-aos-duration="600">
+            <p class="languageName"><img src="java.png" style="height: 30px;width: 30px;vertical-align: middle"> JAVA
+            </p>
+            <div class="progressBar">
+                <div class="progress80">80%</div>
+            </div>
 
-        <p class="languageName"><img src="java.png" style="height: 30px;width: 30px;vertical-align: middle"> JAVA</p>
-        <div class="progressBar">
-            <div class="progress80">80%</div>
+            <p class="languageName"><img src="python.png" style="height: 25px;width: 25px;vertical-align: middle">
+                PYTHON
+            </p>
+            <div class="progressBar">
+                <div class="progress50">50%</div>
+            </div>
+
+
+            <p class="languageName"><img src="html.png" style="height: 30px;width: 30px;vertical-align: middle"> HTML
+            </p>
+            <div class="progressBar">
+                <div class="progress60">60%</div>
+            </div>
+
+            <p class="languageName"><img src="css.png" style="height: 30px;width: 30px;vertical-align: middle"> CSS</p>
+            <div class="progressBar">
+                <div class="progress50">50%</div>
+            </div>
+
+            <p class="languageName"><img src="git.png" style="height: 30px;width: 30px;vertical-align: middle"> GIT</p>
+            <div class="progressBar">
+                <div class="progress50">50%</div>
+            </div>
+
         </div>
-
-        <p class="languageName"><img src="python.png" style="height: 25px;width: 25px;vertical-align: middle"> PYTHON</p>
-        <div class="progressBar">
-            <div class="progress50">50%</div>
-        </div>
-
-
-        <p class="languageName"><img src="html.png" style="height: 30px;width: 30px;vertical-align: middle"> HTML</p>
-        <div class="progressBar">
-            <div class="progress60">60%</div>
-        </div>
-
-        <p class="languageName"><img src="css.png" style="height: 30px;width: 30px;vertical-align: middle"> CSS</p>
-        <div class="progressBar">
-            <div class="progress50">50%</div>
-        </div>
-
-        <p class="languageName"><img src="git.png" style="height: 30px;width: 30px;vertical-align: middle"> GIT</p>
-        <div class="progressBar">
-            <div class="progress50">50%</div>
-        </div>
-
 
     </div>
 </section>
@@ -237,22 +249,25 @@
 
             <div class="instagram">
                 <i class="fab fa-instagram"></i>
-                <p style="font-family: 'open-sans bold',sans-serif;font-size: 18px;font-weight: bold">Follow Me On Social Media</p>
-                <a href="https://www.instagram.com/1ance_ma/" target="_blank"><p style="color: rgb(167,159,142)">Instagram</p></a>
-                <a href="https://www.facebook.com/lance.ma/" target="_blank"><p style="color: rgb(167,159,142)">Facebook</p></a>
+                <p class="contactSubtext">Follow Me On
+                    Social Media</p>
+                <a href="https://www.instagram.com/1ance_ma/" target="_blank"><p style="color: rgb(167,159,142)">
+                    Instagram</p></a>
+                <a href="https://www.facebook.com/lance.ma/" target="_blank"><p style="color: rgb(167,159,142)">
+                    Facebook</p></a>
                 <a href="https://github.com/LanceMa03" target="_blank"><p style="color: rgb(167,159,142)">GitHub</p></a>
             </div>
 
             <div class="email">
                 <i class="fa fa-envelope" style="font-size:4.2rem; color: rgb(244,242,238)"></i>
-                <p style="font-family: 'open-sans bold',sans-serif;font-size: 18px;font-weight: bold">Email Me</p>
+                <p class="contactSubtext">Email Me</p>
                 <div><a href="mailto: ma718@purdue.edu">ma718@purdue.edu</a></div>
                 <div><a href="mailto: lancema507@gmail.com">lancema507@gmail.com</a></div>
             </div>
 
             <div class="linkedln">
                 <i class="fab fa-linkedin-in"></i>
-                <p style="font-family: 'open-sans bold',sans-serif;font-size: 18px;font-weight: bold">Let's Connect</p>
+                <p class="contactSubtext">Let's Connect</p>
                 <p class="contactText"><a href="https://www.linkedin.com/in/lance-ma/" target="_blank">Linkedln
                     Profile</a></p>
             </div>
@@ -271,6 +286,10 @@
     <p>Copyright © 2021 Lance Ma</p>
 </footer>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>

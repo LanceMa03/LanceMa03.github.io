@@ -137,6 +137,7 @@ header {
 
 .school {
     margin-bottom: -20px;
+    font-size: 20px !important;
 }
 
 .start {
@@ -170,6 +171,7 @@ header {
 
 .courworkTitle {
     text-decoration: underline;
+    font-weight: normal;
 }
 
 .title {
@@ -181,6 +183,7 @@ header {
     color: rgb(244, 242, 238);
     margin-bottom: 4rem;
     font-family: "open-sans bold", sans-serif;
+    letter-spacing: .4rem;
 }
 
 .education {
@@ -389,7 +392,12 @@ a {
     text-decoration: none;
 }
 
-
+.contactSubtext {
+    font-family: 'open-sans bold',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F99A47;
+}
 
 
 .footer a {
