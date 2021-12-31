@@ -263,18 +263,6 @@ nav.black {
 }
 
 
-.rightText {
-    float: right;
-}
-
-.progressBarSpan {
-    color: #000 !important;
-    background-color: #f1f1f1;
-    line-height: 1.8;
-    width: 40%;
-    float: right;
-}
-
 .contact {
     margin-left: 10px;
 }
@@ -432,6 +420,16 @@ a {
     color: #F99A47;
 }
 
+.englishLanguage {
+    direction: rtl;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.englishLanguage i {
+    font-size: 30px;
+    margin-left: 10px;
+}
 
 .footer a {
     text-decoration: none;
