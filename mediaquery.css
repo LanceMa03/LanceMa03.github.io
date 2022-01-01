@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1024px) {
+
+    .image img {
+        float: left;
+    }
+
+    .aboutMeText {
+        font-size: 16px;
+    }
+
+
+    .cardRow {
+        flex-direction: column;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+
+    .card {
+        width: auto;
+    }
+
+
+    .progressBar {
+        width: 300%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    
+}
