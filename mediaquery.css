@@ -1,11 +1,19 @@
 @media only screen and (max-width: 1024px) {
 
-    .image img {
-        float: left;
+
+    .image {
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
     }
 
     .aboutMeText {
-        font-size: 16px;
+        margin-top: auto;
+        font-size: 24px;
+        float: left;
     }
 
 
@@ -23,8 +31,22 @@
     .progressBar {
         width: 300%;
     }
+
+
+    nav a{
+        font-size: 18px !important;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    #aboutSection {
+        overflow: auto;
+    }
+
 }
 
 @media only screen and (max-width: 900px) {
-    
+
 }

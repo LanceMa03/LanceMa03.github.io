@@ -95,12 +95,13 @@ nav.black {
     color: rgb(205, 200, 191);
 }
 
-.image img{
+.image {
     float: left;
     width: 40%;
     width: 500px !important;
     height: 600px !important;
     margin-right: 40px;
+    overflow: hidden;
 }
 
 .aboutMeText {
@@ -332,6 +333,9 @@ a {
     padding-bottom: 5rem;
     padding: 5rem;
     height: 100vh;
+    height: 100%;
+    overflow: auto;
+
 }
 
 .skillIcons {
