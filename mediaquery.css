@@ -49,4 +49,138 @@
 
 @media only screen and (max-width: 900px) {
 
+    .title {
+        font-size: 20px;
+    }
+
+    .aboutMeText {
+        font-size: 20px;
+    }
+
+    .school {
+        font-size: 1.17rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .skillRow {
+
+        display: flex;
+        flex-direction: column !important;
+        grid-gap: 50px;
+    }
+
+    .progressBar {
+        width: 100%;
+    }
+    
+    .englishLanguage {
+        float: left;
+        direction: ltr;
+    }
+
+    .right {
+        display: grid;
+    }
+
+    nav a {
+        font-size: 14px !important;
+    }
+
+   .date {
+       clear: both;
+       display: inline-block;
+       width: 100%;
+       font-size: 14px;
+   }
+
+   .firstName {
+       font-size: 70px;
+       text-align: center;
+   }
+
+   .subtext {
+       font-size: 23px;
+   }
+
+   .card {
+       align-items: center !important;
+       margin: auto;
+   }
+} 
+
+@media only screen and (max-width: 600px) {
+    .firstName {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .subtext {
+        line-height: 30px;
+    }
+
+    .aboutMeText {
+        text-align: center;
+    }
+
+    .purdueEducationAbout {
+        font-size: 14px;
+    }
+
+    .date {
+        clear: both;
+        display: inline-block;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    nav a {
+        font-size: 12px !important;
+    }
+
+    .cardText {
+        font-size: 16px;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 300px !important;
+        height: 400px !important;
+    }
+
+    #aboutSection, #educationSection, #projectsSection, #skillsSection, #contactSection {
+        padding: 2rem;
+    }
+
+    .card {
+        align-items: center !important;
+        margin: auto;
+    }
+
+    .contactRow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 50px;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    .email, .instagram, .linkedln {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instagram {
+        align-items: center;
+    }
+
+
+
 }
