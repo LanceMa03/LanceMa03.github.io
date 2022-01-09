@@ -1,6 +1,4 @@
 @media only screen and (max-width: 1024px) {
-
-
     .image {
         float: none;
         display: flex;
@@ -118,6 +116,7 @@
 
     .subtext {
         line-height: 30px;
+        font-size: 18px;
     }
 
     .aboutMeText {
@@ -180,6 +179,8 @@
     .instagram {
         align-items: center;
     }
+
+
 
 
 }
