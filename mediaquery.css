@@ -7,7 +7,7 @@
         justify-content: center;
         align-items: center;
         margin: auto;
-        
+
     }
 
     .aboutMeText {
@@ -33,7 +33,7 @@
     }
 
 
-    nav a{
+    nav a {
         font-size: 18px !important;
     }
 
@@ -73,7 +73,7 @@
     .progressBar {
         width: 100%;
     }
-    
+
     .englishLanguage {
         float: left;
         direction: ltr;
@@ -87,27 +87,27 @@
         font-size: 14px !important;
     }
 
-   .date {
-       clear: both;
-       display: inline-block;
-       width: 100%;
-       font-size: 14px;
-   }
+    .date {
+        clear: both;
+        display: inline-block;
+        width: 100%;
+        font-size: 14px;
+    }
 
-   .firstName {
-       font-size: 70px;
-       text-align: center;
-   }
+    .firstName {
+        font-size: 70px;
+        text-align: center;
+    }
 
-   .subtext {
-       font-size: 23px;
-   }
+    .subtext {
+        font-size: 23px;
+    }
 
-   .card {
-       align-items: center !important;
-       margin: auto;
-   }
-} 
+    .card {
+        align-items: center !important;
+        margin: auto;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .firstName {
@@ -160,7 +160,7 @@
         margin: auto;
     }
 
-    .contactRow{
+    .contactRow {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -180,7 +180,6 @@
     .instagram {
         align-items: center;
     }
-
 
 
 }
