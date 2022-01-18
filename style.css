@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden !important;
 }
 
 body {
@@ -11,7 +12,8 @@ body {
     font-size: 1rem;
     color: white;
     font-family: "open-sans bold", sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    position: relative;
 }
 
 /* First Name, Last Name Stylin */
@@ -318,7 +320,7 @@ a {
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: translateX(30%);/*100%*/
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 
@@ -351,17 +353,7 @@ a {
     flex-flow: nowrap;
 }
 
-#pythonHover {
-    visibility: visible;
-    top: 5px;
-    left: 10px !important;
-    color: red;
 
-}
-
-.pythonIcon:hover ~ #pythonHover {
-    visibility: hidden;
-}
 
 
 #educationSection {
