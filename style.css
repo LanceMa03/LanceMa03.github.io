@@ -355,18 +355,14 @@ a {
     margin: 15px
 }
 
-#skillRow {
+.skillRow {
     display: flex;
     flex-direction: row;
     flex-flow: nowrap;
     margin-top: 25px;
 }
 
-
-
-
 #educationSection {
-
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 5rem;

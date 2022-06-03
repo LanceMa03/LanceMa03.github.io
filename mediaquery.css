@@ -64,10 +64,13 @@
 
 @media only screen and (max-width: 768px) {
     .skillRow {
-
         display: flex;
-        flex-direction: column !important;
-        grid-gap: 50px;
+
+    }
+
+    #skillIcons {
+        font-size: 60px;
+
     }
 
     .progressBar {
@@ -115,6 +118,7 @@
         text-align: center;
         margin-bottom: 24px;
     }
+
 
     .subtext {
         line-height: 30px;
@@ -189,6 +193,22 @@
 
     body,html {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+
+    .skillRow {
+        display: flex;
+
+    }
+
+    #skillIcons {
+        font-size: 60px;
+        width: auto;
+        height: auto;
+
+
     }
 
 
