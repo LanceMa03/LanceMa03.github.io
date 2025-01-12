@@ -109,7 +109,7 @@ nav.black {
 
 .aboutMeText {
   flex: 2;
-  font-family: "Source Sans Pro", sans-serif; 
+  font-family: "Source Sans Pro", sans-serif;
   margin-top: -30px;
   overflow: hidden;
   font-size: 18px;
@@ -122,9 +122,9 @@ nav.black {
 }
 
 .info {
-    font-family: "Lora", serif;
-    flex: 1;
-    font-size: 18px;
+  font-family: "Lora", serif;
+  flex: 1;
+  font-size: 18px;
 }
 
 .date {
@@ -179,6 +179,10 @@ nav.black {
 }
 
 .footerButton {
+    width: fit-content;
+   letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
   border: none;
   display: inline-block;
   padding: 8px 16px;
@@ -207,10 +211,6 @@ nav.black {
 }
 
 .education {
-  margin-left: 10px;
-}
-
-.personalProjects {
   margin-left: 10px;
 }
 
@@ -361,12 +361,78 @@ a {
 }
 
 #projectsSection {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  padding: 5rem;
+  padding: 4rem 2rem;
   height: 100vh;
   height: fit-content;
   background-color: #222222;
+}
+
+#projectsTitle {
+  text-align: center; /* Centers the title horizontally */
+  margin-bottom: 2rem; /* Adds spacing below the title */
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+/* Projects container */
+.personalProjects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px; /* Restricts grid width for better centering */
+  margin: 0 auto; /* Centers the grid horizontally */
+  padding: 0 20px;
+}
+
+/* Individual project card */
+.project-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #b3b3b3;
+}
+
+/* Project icon */
+.project-icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tags span {
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 0.85rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 #skillsSection {
@@ -440,8 +506,6 @@ a {
   color: black;
   background-color: white;
 }
-
-
 
 .mainContainer {
   display: flex;
